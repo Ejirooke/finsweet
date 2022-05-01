@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container0 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icons {
+    margin-right: 10px;
+}
+
+.flex1 {
+    display: flex;
+}
+
+#hero-section .text-section{
+    width: 50%;
+} 
+
+#hero-section .image-section {
+    width: 50%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(https://res.cloudinary.com/kiwi-s-designs/image/upload/v1651390410/Header-Image_mhwrj5.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 78vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+#hero-section
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section {
+    width: 45%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .right-form-section h3{
+    font-size: 48px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.flex{
+    height: auto;
+    display: flex;
+  }
+
+
+#quote-sections{
+    background: #FFFFFF;
+
+}
+
+#quote-sections .left-sections{
+    width: 50%;  
+}
+
+
+#quote-sections .right-sections{
+    width: 50%; 
+}
+
+.left-sections{
+   
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+.left-sections h1{
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+}
+
+.left-sections p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 28px;
+padding-right: 100px;
+}
+
+.flex img{
+    width: 40px;
+    height: 40px;
+}
+
+.image-box{
+    margin-right: 20px;
+}
+
+.right-sections{
+    padding-top: 80px;
+    padding-right: 300px;
+    padding-left: 50px;
+}
+
+.right-sections h3{
+        
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 46px;
+}
+
+
+.right-sections ul{
+    list-style: none;
+}
+
+.right-sections p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 28px;
+}
+
+.container1{
+    background: #F2F2F2;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  
+}
+
+.offer{
+    margin-bottom: 40px;
+}
+
+.offer h6{
+   padding-left: 600px;
+   padding-right: 600px;
+   text-align: center;
+    letter-spacing: -0.03em;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.offer h1{
+    padding-left: 500px;
+    padding-right: 500px;
+    font-weight: 400px;
+    font-family: 'Manrope';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+}
+
+.service img{
+    width: 70px;
+    height: 30px;
+    padding-left: 40px;
+   
+}
+
+.sub{
+    align-content: center;
+    padding: 40px ;
+    margin: 8px;
+    width: 200px;
+    height: 150px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 250px;
+}
+
+.icon p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 175%;
+}
+
+.icon img{
+    width: 35px;
+    height: 5px;
+    margin-top: 7px;
+
+}
+/*.container2{
+    margin-bottom: 80px;
+}*/
+
+.img-left{
+    width: 55%;
+    height: 55vh;
+    background-size: cover;
+}
+
+.img-right{
+    width: 45%;
+    height: 55vh;
+    background-size: cover;
+}
+
+.txt-car h3{
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    padding-left: 80px ;
+    padding-right: 60px;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+
+.txt-car{
+    background: #FF6433;
+    position: absolute;
+    width: 450px;
+    height: 55vh;
+    left: 318px;
+
+}
+
+.data{
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data h2{
+    color: #661CE7;
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: -0.03em;
+    text-align: center;
+
+}
+
+.subb{
+    align-content: center;
+    padding: 50px ;
+    margin: 8px;
+}
+
+.data p{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.container3 h3{
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 140%;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-bottom: 35px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+}
+
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+
+.brand{
+    padding-left: 175px; 
+    margin-top: 30px;  
+          
+}
+
+.brand img{
+    width: 1000px;
+    height: 100px;
+}
+    
+
+.container3{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
